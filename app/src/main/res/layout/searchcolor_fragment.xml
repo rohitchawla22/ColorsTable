@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_hue"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="numberDecimal"
+            android:hint="Input hue"
+            android:textSize="10dp"
+            android:maxLength="3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search by hue"
+            android:id="@+id/button_hue"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9dp"
+            android:singleLine="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_value"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Input max value"
+            android:textSize="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search by value"
+            android:id="@+id/button_value"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:textSize="9dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_min_saturation"
+            android:layout_weight="1"
+            android:hint="Input min saturation"
+            android:textSize="9dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_max_saturation"
+            android:layout_weight="1"
+            android:hint="Input max saturation"
+            android:textSize="9dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search by saturation"
+            android:id="@+id/button_saturation"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="9dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/color_name"
+            android:layout_weight="5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="9dp"
+            android:hint="Color Name" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_search"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9dp"
+            android:text="Search by name" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_name_complete"
+            android:layout_weight="10"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:hint="  color name"
+            android:textSize="9dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_saturation_complete"
+            android:layout_weight="5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9dp"
+            android:hint="saturation" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_value_complete"
+            android:layout_weight="5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9dp"
+            android:hint="value" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_search_all"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9dp"
+            android:text="Search by parameters" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_listview"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SORT"
+        android:id="@+id/change_sort"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

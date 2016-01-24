@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="K:\freelancer\color\ColorsTable\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="K:\freelancer\color\ColorsTable\app\build\intermediates\pre-dexed\debug\classes-39a567c9d9ddf0d0f7310b90f125dbb83609b790.jar" />
+    </item>
+    <item
+        jar="K:\freelancer\color\ColorsTable\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="K:\freelancer\color\ColorsTable\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-abb4c756019196bcc8227ddf8bc44675b294a487.jar" />
+    </item>
+    <item
+        jar="K:\freelancer\color\ColorsTable\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="K:\freelancer\color\ColorsTable\app\build\intermediates\pre-dexed\debug\classes-a1c6e058e61ef49eff8323637782bbc4543a0ae5.jar" />
+    </item>
+    <item
+        jar="C:\Users\EMAN\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="K:\freelancer\color\ColorsTable\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-77e5e4bde4a8095ab579761a9e84520dfac3f372.jar" />
+    </item>
+
+</items>
